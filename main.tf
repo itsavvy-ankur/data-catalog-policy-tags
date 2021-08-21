@@ -1,3 +1,9 @@
+terraform {
+  backend "gcs" {
+    bucket  = "data-catalog-demo-323514-tfstate"
+    prefix  = "terraform/state/rnd"
+  }
+}
 
 resource "google_data_catalog_taxonomy" "basic_taxonomy" {
   project      = var.project_id
