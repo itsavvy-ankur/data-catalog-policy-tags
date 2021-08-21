@@ -11,14 +11,18 @@ Further reading : https://cloud.google.com/bigquery/docs/best-practices-policy-t
 
 * The addition of policy tags to specific BigQuery columns is currently not added in terraform
 
+
+
+## Terraform Execution instructions
+
+* Code structure
+
 ```
 ├── main.tf
 ├── README.md
 ├── terraform.tfvars
 └── variables.tf
 ```
-
-## Terraform Execution instructions
 
 * pre-requisites
 
@@ -28,7 +32,7 @@ Update project_id and members in terraform.tfvars
 project_id = "data-catalog-demo-323514"
 
 policy_members = [
-  "user:iamtheone.ankur@gmail.com",
+  "user:example.user@gmail.com",
   "serviceAccount:pii-sa@data-catalog-demo-323514.iam.gserviceaccount.com",
 ]
 ```
