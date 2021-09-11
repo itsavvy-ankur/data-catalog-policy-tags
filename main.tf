@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket  = "data-catalog-demo-323514-tfstate"
-    prefix  = "terraform/state/rnd"
+    bucket = "data-catalog-demo-323514-tfstate"
+    prefix = "terraform/state/rnd"
   }
 }
 
