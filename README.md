@@ -1,3 +1,5 @@
+[![Terraform](https://github.com/itsavvy-ankur/data-catalog-policy-tags/actions/workflows/terraform.yml/badge.svg)](https://github.com/itsavvy-ankur/data-catalog-policy-tags/actions/workflows/terraform.yml)
+
 # Terraform for Google Data Catalog Policy Tag
 This module helps create data catalog policy tags. Policy tags can be used to provide fine grained permissions to BigQuery columns.
 
